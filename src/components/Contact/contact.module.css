@@ -1,0 +1,23 @@
+.wrapContact {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 7px;
+  width: 320px;
+  margin-left: 50px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.nameWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.btnDelete {
+  padding: 3px 15px;
+  border: none;
+  border-radius: 3px;
+}

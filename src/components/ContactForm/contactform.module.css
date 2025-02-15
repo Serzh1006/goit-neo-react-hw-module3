@@ -1,0 +1,55 @@
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  border: 2px solid rgba(0, 0, 0, 0.267);
+  border-radius: 5px;
+}
+
+.inputForm {
+  display: block;
+  width: 100%;
+  padding-left: 5px;
+  color: gray;
+}
+
+.addBtn {
+  display: block;
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: none;
+  color: cadetblue;
+  background-color: #cbeeff;
+
+  &:hover,
+  &:focus {
+    color: rgb(175, 141, 255);
+  }
+
+  &:active {
+    color: red;
+  }
+}
+
+.errorMessage,
+.errorMessage2 {
+  font-style: italic;
+  position: absolute;
+  top: 54px;
+  left: 33px;
+  font-size: 14px;
+  color: red;
+  text-decoration: dashed;
+}
+
+.errorMessage2 {
+  top: 117px;
+  left: 33px;
+}
