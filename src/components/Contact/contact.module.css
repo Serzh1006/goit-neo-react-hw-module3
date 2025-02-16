@@ -20,4 +20,10 @@
   padding: 3px 15px;
   border: none;
   border-radius: 3px;
+  transition: color 250ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    color: cadetblue;
+  }
 }

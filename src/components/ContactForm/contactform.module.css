@@ -27,6 +27,7 @@
   border: none;
   color: cadetblue;
   background-color: #cbeeff;
+  transition: color 250ms ease-in-out;
 
   &:hover,
   &:focus {

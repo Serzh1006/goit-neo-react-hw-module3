@@ -1,0 +1,15 @@
+.primaryTitle {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 15px 0 30px 50px;
+  font-size: 25px;
+  font-weight: 500;
+  background: linear-gradient(to bottom, rgb(0, 0, 255), rgb(255, 255, 0));
+  background-clip: text;
+  color: transparent;
+}
+
+.messageList {
+  margin-left: 50px;
+  font-size: 18px;
+}
